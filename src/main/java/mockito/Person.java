@@ -1,6 +1,5 @@
 package mockito;
 
-
 public class Person
 {
     private final Integer personID;
