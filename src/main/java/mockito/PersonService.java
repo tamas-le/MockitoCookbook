@@ -2,7 +2,13 @@ package mockito;
 
 public class PersonService
 {
-    private final PersonDao personDao;
+    private  PersonDao personDao;
+    
+    
+    public PersonService(){
+    	
+    }
+    
     public PersonService( PersonDao personDao )
     {
         this.personDao = personDao;
